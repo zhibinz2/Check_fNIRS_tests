@@ -1,3 +1,4 @@
+
 % This version shows checkerboard on center
 % Zhibin ran this experiment on Shane 
 % Recording 2022050503
@@ -42,9 +43,9 @@ try      % if anything went wrong, exit the display and show the error on the Co
 
     % Open an on screen window and color it black
     % For help see: Screen Openwindow?
-    % This will draw on a black backgroud with a size of [0 0 800 600] or
+    % This will draw on a black backgroud with a size of [0 0 336*2 256*2] or
     % full screen, and then return a window pointer windowPtr
-    % [windowPtr, windowRect] = PsychImaging('Openwindow', screenNumber, black, [0 0 800 600]); 
+    % [windowPtr, windowRect] = PsychImaging('Openwindow', screenNumber, black, [0 0 336*2 256*2]); 
     [windowPtr, windowRect] = PsychImaging('Openwindow', screenNumber, black); % show on a full screen
 
     % Get the size of the on screen windowPtr in pixels
