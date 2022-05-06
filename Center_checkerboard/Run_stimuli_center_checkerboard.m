@@ -263,7 +263,7 @@ RestDuration=toc % check the time length in command window after experiment
 %   Screen('Flip', windowPtr);
 
 % Save the time duration for checking after the experiment
-StimDurations=[StimDurations;StimDuration];
+RestDurations=[RestDurations;RestDuration];
 
 %% Show The End
 TheEnd = ['The End.' ...
