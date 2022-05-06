@@ -283,6 +283,10 @@ catch
     psychrethrow(psychlasterror);
 end  
 
+%% Save stimuli data (all the variables created by the experiment in the Workspace)
+filename=['2022050503stimuli.mat'];
+save(filename);
+ 
 
  
 
