@@ -4,6 +4,10 @@
 % Clear the screen display and all variables in the workspace
 sca; clc; close all; clear all; clearvars; 
 
+% set the random number seed as the date of today in formate such as 20220505
+seed=input('enter the date in format YYYYMMDD:');
+rng(seed);
+
 % Break and issue an error message if the installed Psychtoolbox is not
 % based on OpenGL or Screen() is not working properly.
 AssertOpenGL;
@@ -284,8 +288,8 @@ catch
 end  
 
 %% Save stimuli data (all the variables created by the experiment in the Workspace)
-filename=['2022050503stimuli.mat'];
-save(filename);
+% filename=[num2str(seed) '.mat'];
+% save(filename);
  
 
  
