@@ -96,7 +96,7 @@ try      % if anything went wrong, exit the display and show the error on the Co
 
     %% Set size of the squares for photocell ##############################
     PhotosensorSize=60; 
-    % Positions of the four corners
+    % Positions of the photocell at he bottom rihgt corner of the screen
     RightBottomSquare= [screenXpixels-PhotosensorSize screenYpixels-PhotosensorSize screenXpixels screenYpixels];
 
     %% Timing of each video frame to flip the checkboard or the black screen
