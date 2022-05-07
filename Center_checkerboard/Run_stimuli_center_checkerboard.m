@@ -188,7 +188,7 @@ try      % if anything went wrong, exit the display and show the error on the Co
         % mark the beginning of stimulus
         Screen('FillRect', windowPtr, white, RightBottomSquare);
         Screen('Flip', windowPtr);
-        pause(0.05); 
+        pause(0.3); 
 
           
         % get a timestamp by flip a black screen at the start of stimulus 
