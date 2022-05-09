@@ -1,6 +1,4 @@
 % This version shows checkerboard on center
-% Zhibin ran this experiment on Shane 
-% Recording 2022050503
 
 % Clear the screen display and all variables in the workspace
 sca; clc; close all; clear all; clearvars; 
@@ -271,7 +269,7 @@ catch
 end  
 
 %% Save stimuli data (all the variables created by the experiment in the Workspace)
-filename=['2022050503stimuli.mat'];
+filename=[num2str(seed) '.mat'];
 save(filename);
  
 

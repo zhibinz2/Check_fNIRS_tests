@@ -288,8 +288,8 @@ catch
 end  
 
 %% Save stimuli data (all the variables created by the experiment in the Workspace)
-% filename=[num2str(seed) '.mat'];
-% save(filename);
+filename=[num2str(seed) '.mat'];
+save(filename);
  
 
  
